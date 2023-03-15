@@ -1,0 +1,43 @@
+body{
+    background-color: #191919;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: calc(100vw - 30px);
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    column-gap: 1em;
+}
+
+button{
+    cursor: pointer;
+    background-color: #115173;
+    height: 3em;
+    width: 7em;
+    font-size: x-large;
+    color: white;
+    border-radius: 7%;
+    border-color: #191919;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+form{
+    padding-top: 1em;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+#quit{
+    background-color: red;
+    color: white;
+}

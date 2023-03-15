@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Lite-TV</title>
+</head>
+<body>
+    <div class="grid-container">
+
+        <form id="ftrthaber" action="/trt-haber" method="POST">
+            <input type="hidden" name="trt-haber" value="https://youtu.be/-Lrxv1_i3qc">
+            <button id="trthaber">
+                TRT HABER
+            </button>
+        </form>
+
+        <form id="fshowtv" action="/show-tv" method="POST">
+            <input type="hidden" name="showtv" value="https://www.showtv.com.tr/canli-yayin">
+            <button id="showtv">
+                Show
+            </button>
+        </form>
+    
+        <form id="fkanald" action="/kanald" method="POST">
+            <input type="hidden" name="kanald" value="https://www.kanald.com.tr/canli-yayin">
+            <button id="kanald">
+                KanalD
+            </button>
+        </form>
+    
+        <form id="fatv" action="/atv" method="POST">
+            <input type="hidden" name="atv" value="https://www.atv.com.tr/canli-yayin">
+            <button id="atv">
+                ATV
+            </button>
+        </form>
+    
+        <form id="fhaberturk" action="/haberturk" method="POST">
+            <input type="hidden" name="haberturk" value="https://www.youtube.com/watch?v=SqHIO2zhxbA">
+            <button id="haberturk">
+                HaberTürk
+            </button>
+        </form>
+    
+        <form id="fhalktv" action="/halk-tv" method="POST">
+            <input type="hidden" name="halk-tv" value="https://www.youtube.com/watch?v=r2ZgRoX2orE">
+            <button id="halktv">
+                Halk TV
+            </button>
+        </form>
+    
+        <form id="fcnnturk" action="/cnn-turk" method="POST">
+            <input type="hidden" name="cnn-turk" value="https://www.youtube.com/watch?v=X_EWYemclKA">
+            <button id="cnnturk">
+                CNN Türk
+            </button>
+        </form>
+    
+        <form id="fhaberglobal" action="/haber-global" method="POST">
+            <input type="hidden" name="haber-global" value="https://www.youtube.com/watch?v=UVPejgEw21c">
+            <button id="haberglobal">
+                Haber Global
+            </button>
+        </form>
+    
+        <form id="fntv" action="/ntv" method="POST">
+            <input type="hidden" name="ntv" value="https://www.youtube.com/watch?v=XEJM4Hcgd3M">
+            <button id="ntv">
+                NTV
+            </button>
+        </form>
+    
+        <form id="fahaber" action="/a-haber" method="POST">
+            <input type="hidden" name="a-haber" value="https://www.youtube.com/watch?v=g4QA9Sh_g_8">
+            <button id="ahaber">
+                A Haber
+            </button>
+        </form>
+        
+        <form id="fquit" action="/quit" method="POST">
+            <input type="hidden" name="quit" value="1">
+            <button id="quit">
+                Kapat
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
