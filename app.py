@@ -83,6 +83,13 @@ def show_tv():
     dremote1.kanal(url)
     return redirect(f"http://{localhost}:5000")
 
+@app.route("/cnn-turk", methods=["POST"])
+def cnn_turk():
+    url = request.form['cnn-turk']
+    dremote1 = remote
+    dremote1.kanal(url)
+    return redirect(f"http://{localhost}:5000")
+
 @app.route("/kanald", methods=["POST", "GET"])
 def kanald():
     url = request.form['kanald']
