@@ -10,6 +10,7 @@
 <body>
     <div class="grid-container">
 
+
         <form id="ftrthaber" action="/trt-haber" method="POST">
             <input type="hidden" name="trt-haber" value="https://youtu.be/-Lrxv1_i3qc">
             <button id="trthaber">
@@ -74,16 +75,37 @@
         </form>
     
         <form id="fahaber" action="/a-haber" method="POST">
-            <input type="hidden" name="a-haber" value="https://www.youtube.com/watch?v=g4QA9Sh_g_8">
+            <input type="hidden" name="a-haber" value="https://www.youtube.com/watch?v=acwBho1oqcg">
             <button id="ahaber">
                 A Haber
+            </button>
+        </form>
+
+        <form id="fvolup" action="/volup" method="POST">
+            <input type="hidden" name="volup" value="1">
+            <button id="volup">
+                Sesi Aç
+            </button>
+        </form>
+
+        <form id="fvoldown" action="/voldown" method="POST">
+            <input type="hidden" name="voldown" value="1">
+            <button id="voldown">
+                Sesi Kapat
             </button>
         </form>
         
         <form id="fquit" action="/quit" method="POST">
             <input type="hidden" name="quit" value="1">
             <button id="quit">
-                Kapat
+                Kanalı Kapat
+            </button>
+        </form>
+
+        <form id="fshutdown" action="/shutdown" method="POST">
+            <input type="hidden" name="shutdown" value="1">
+            <button id="shutdown">
+                Bilgisayarı Kapat
             </button>
         </form>
     </div>
